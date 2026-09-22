@@ -1,0 +1,7 @@
+# Runtime / generated
+logs/
+cache/
+*cache/
+world*/
+saves/
+*.log
