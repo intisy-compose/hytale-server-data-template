@@ -8,9 +8,9 @@ generates its defaults on first start, and runtime state (worlds, saves, logs) i
 Fork or replace this repo and commit your configuration (the dedicated server's configuration files), then point the slot at it
 from the game-compose checkout:
 
-```bash
-./data.sh use hytale <owner/repo[@ref]>   # your own data repo, optionally a branch
-./data.sh use hytale                      # back to this template
+```powershell
+.\docker-compose.ps1 data use hytale <owner/repo[@ref]>   # your own data repo, optionally a branch
+.\docker-compose.ps1 data use hytale                      # back to this template
 ```
 
 Commit configuration, not runtime state.
